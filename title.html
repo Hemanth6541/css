@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>student details form</title>
+</head>
+<body>
+<form action="https://www.w3schools.com/">
+<fieldset>
+<legend>PERSONAL DETAILS</legend>
+<label for="fname">First Name</label>
+<input type="text" id="fname" placeholder="Hemanth" Required pattern="[A-Za-z]{3,8}"><br><br>
+<label for="lname">Last Name</label>
+<input type="text" id="lname" Required><br><br>
+<label for="dob">DOB</label>
+<input type="date" id="dob" Required><br><br>
+<label for="Email">Email</label>
+<input type="Email" id="Email" Required><br><br>
+</fieldset>
+
+<fieldset>
+<legend>EDUCATIONAL DETAILS</LEGEND>
+<label for="">DEPARTMENT</label><br><br>
+<input type="Radio" id="EEE" name="dept">
+<label for="EEE">EEE</label>
+<input type="Radio" id="ECE" name="dept">
+<label for="ECE">ECE</label>
+<input type="Radio" id="CIVIL" name="dept">
+<label for="CIVIL">CIVIL</label>
+<input type="Radio" id="CSE" name="dept">
+<label for="CSE">CSE</label><br><br>
+
+<label for="">YEAR OF GRADUATION</LABEL>
+<input list="YOG">
+<datalist id="YOG">
+<option>2021</options>
+<option>2022</options>
+<option>2023</options>
+<option>2024</options>
+</datalist><br><br>
+
+<label for="">SKILLS</label><br><br>
+
+<input type="checkbox" id="Python">
+<label for="Python">Python</label><br><br>
+<input type="checkbox" id="SQL">
+<label for="SQL">SQL</label><br><br>
+<input type="checkbox" id="HTML">
+<label for="HTML">HTML</label><br><br>
+<input type="checkbox" id="JAVA">
+<label for="JAVA">JAVA</label>
+</fieldset>
+<center><input type="submit"></center>
+</form>
+</body>
+</html>
+

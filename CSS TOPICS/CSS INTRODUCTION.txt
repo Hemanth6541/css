@@ -1,0 +1,10 @@
+1,CSS is used to apply the styling for the contents
+2,CSS stands for Cascading Style Sheet
+There are three syntax:1,<style></style>
+                       2,<style property or attribute>
+                       3,<link>tag
+TYPES OF CSS:1,inline css
+             2,internal css
+             3,External css        
+
+
